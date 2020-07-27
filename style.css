@@ -1,15 +1,22 @@
 body {
     margin: 40px auto;
-    max-width: 800px;
+    max-width: 750px;
     line-height: 1.6;
     font-size: 18px;
     color: #444;
     padding: 0 10px
 }
 
+.ShipHeader {
+    text-align: center;
+}
+
 * {
     font-family: 'Nunito Sans', sans-serif;
-    text-align: center;
+}
+
+.description {
+    text-align: left;
 }
 
 .shipimage {
@@ -41,6 +48,8 @@ img {
     margin-top: 5vh;
     margin-bottom: 5vh;
     padding: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     transition: transform .1s ease;
 }
 
